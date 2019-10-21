@@ -1,0 +1,129 @@
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 45px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  max-width: 650px;
+  margin-left: 40px;
+  margin-right: auto;
+  text-align: left;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  color: #999999;
+  max-width: 650px;
+  margin-left: 40px;
+  margin-right: auto;
+  text-align: left;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.audio {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.logoGroup {
+  background-color: #D0C0FC;
+  padding: 2px;
+  width: 30px;
+  height: 30px;
+  float: left;
+  border: 5px solid #D0C0FC;
+}
+
+.music {
+  background-color: white;
+  padding: 2px;
+  width: 37%;
+  height: 30px;
+  float: left;
+  border: 5px solid white;
+}
+
+.explanation {
+  font-size: 14px;
+  color: #4B397D;
+  text-align: left;
+}
+
+.captions {
+  font-size: 14px;
+  color: #999999;
+}
+
+.Photos {
+  width: 100%;
+  float: none;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.para {
+  margin-top: 30px;
+  padding-top: 50px;
+}
+
+.BTSpara {
+  margin-top: 30px;
+  padding-top: 100px;
+}
+
+#LT {
+  margin-left: 7%;
+}
+#MJ {
+  margin-right: 5px;
+}
+#BTS {
+  text-align: center;
+  margin-left: 47%;
+  margin-right: auto;
+}
+
+/*STYLES FOR MOBILES*/
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 30px;ß
+    line-height: 1.2em;
+  }
+
+  #LT {
+    margin-left: 0px
+  }
+
+  .logoGroup {
+    width: 30px;
+    float: left;
+    border: 5px solid #D0C0FC;
+  }
+
+  .music {
+    background-color: white;
+    width: 30%;
+    height: 70px;
+    border: 5px solid white;
+  }
+
+  .para {
+    padding-top: 70px;
+  }
+}
