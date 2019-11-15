@@ -1,0 +1,66 @@
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 45px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-right: auto;
+  text-align: left;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: #999999;
+  max-width: 650px;
+  margin-left: 40px;
+  margin-right: auto;
+  text-align: left;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.captions {
+  font-size: 16px;
+  text-align: center;
+  color: #999999;
+}
+
+.Photos {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+.para {
+  margin-top: 10px;
+  padding-top: 50px;
+}
+
+/*STYLES FOR MOBILES*/
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 30px;ß
+    line-height: 1.2em;
+  }
+
+  .para {
+    padding-top: 70px;
+  }
+}
